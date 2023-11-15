@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    
+}
+header a:hover{
+    scale: 1.2;
+}
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('tesla-coil.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 350%;
+   
+    
+
+}
+
+li{
+    text-align: center;
+   
+   
+    
+}
+
+body{
+    background-color: black;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 20px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000;
+    color: white;
+}
+
+.menu ul li a:hover{
+    background-color: none;
+    color: blue;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.his{
+    padding-right: 260px;
+}
+.quest{
+
+    padding-right: 220px;
+
+}
