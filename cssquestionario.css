@@ -207,3 +207,140 @@ label{
         
         
     }
+    @media screen and (max-width: 1199px){
+    
+        /*.body{
+            height: 896px;
+            width: 414px;
+        }*/
+    
+        .texto{
+            flex-direction: column;
+            font-size: 08px;
+            padding: 0;
+            margin: 0;
+            justify-content: center;
+        
+        }
+    
+    
+        .logo{
+            display: flex;
+            height: 100px;
+            width: 100px;
+            padding: 0;
+            margin: 0;
+            
+        }
+        header a:hover{
+            scale: 1.2;
+        }
+        
+        
+        
+        
+        header{
+            display: flex;
+            justify-content: space-between;
+            background-image: url('tesla-coil.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            align-items: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 250%;
+           
+            
+        
+        }
+        
+        
+        
+       
+        
+        .menu ul li{
+            list-style: none;
+            text-align: center;
+        }
+        
+        .menu ul li a{
+            text-decoration: none;
+            padding: 20px;
+            -webkit-text-stroke-width: 3px;
+            -webkit-text-stroke-color: #000;
+            color: white;
+        }
+        
+        .menu ul li a:hover{
+            background-color: none;
+            color: blue;
+        }
+        
+        .menu ul{
+            display:contents
+        }
+        
+        .his{
+            padding-right: 260px;
+        }
+        .quest{
+        
+            padding-right: 220px;
+        
+        }
+        
+        
+        .banner{
+            display: flex;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+        }
+        
+        div img{
+          height: 250px;
+          width: 100%;
+        
+        }
+        
+        .texto{
+        
+            padding: 0;
+            margin: 0;
+            justify-content: center;
+            
+            
+        }
+        
+      
+        
+        
+        .roda{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-image: url('tesla-coil.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            justify-content: start;
+            
+            
+            }
+            
+            address{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(0, 0, 0);
+            font-size: 30px;
+            
+                
+            
+            }
+            address a {
+               
+                
+               
+                
+                color: rgb(0, 124, 120);
+                
+                
+            }
+        }
